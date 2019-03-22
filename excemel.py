@@ -307,7 +307,7 @@ def main():
     dom = md.parseString(et.tostring(xml, encoding="unicode"))
     pretty_xml = dom.toprettyxml()
 
-    with open("asd.xml", "w") as file:
+    with open(args["output_file"], "w") as file:
         file.write(pretty_xml)
 
 if __name__ == "__main__":
