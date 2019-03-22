@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<MainElement>
+	<TestcaseList>
+		<Testcase>
+			<Name>test1</Name>
+			<Structure>\</Structure>
+			<Reference-ID>-</Reference-ID>
+			<Mode>2</Mode>
+			<Description>descriptions…</Description>
+			<TestResponsible>x@y.z</TestResponsible>
+			<TestSteps>
+				<TestStep>
+					<OrderID>1</OrderID>
+					<Name>Step1</Name>
+					<Description>another description</Description>
+					<ExcpectedResult>-</ExcpectedResult>
+				</TestStep>
+				<TestStep>
+					<OrderID>2</OrderID>
+					<Name>Step2</Name>
+					<Description>another description</Description>
+					<ExcpectedResult>1</ExcpectedResult>
+				</TestStep>
+				<TestStep>
+					<OrderID>3</OrderID>
+					<Name>Step3</Name>
+					<Description>another description</Description>
+					<ExcpectedResult>11</ExcpectedResult>
+				</TestStep>
+				<TestStep>
+					<OrderID>4</OrderID>
+					<Name>Step4</Name>
+					<Description>another description</Description>
+					<ExcpectedResult>111</ExcpectedResult>
+				</TestStep>
+				<TestStep>
+					<OrderID>5</OrderID>
+					<Name>Step5</Name>
+					<Description>another description</Description>
+					<ExcpectedResult>1111</ExcpectedResult>
+				</TestStep>
+				<TestStep>
+					<OrderID>6</OrderID>
+					<Name>Step6</Name>
+					<Description>another description</Description>
+					<ExcpectedResult>11111</ExcpectedResult>
+				</TestStep>
+			</TestSteps>
+		</Testcase>
+		<Testcase>
+			<Name>test2</Name>
+			<Structure>\</Structure>
+			<Reference-ID>-</Reference-ID>
+			<Mode>2</Mode>
+			<Description>descriptions…</Description>
+			<TestResponsible>x@y.z</TestResponsible>
+			<TestSteps>
+				<TestStep>
+					<OrderID>1</OrderID>
+					<Name>Step1</Name>
+					<Description>another description</Description>
+					<ExcpectedResult>None</ExcpectedResult>
+				</TestStep>
+			</TestSteps>
+		</Testcase>
+	</TestcaseList>
+</MainElement>

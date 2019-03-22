@@ -1,0 +1,30 @@
+{
+  "order": "row",
+  "from": 2,
+  "struct": {
+    "MainElement": {
+      "TestcaseList": [
+        {
+          "Testcase": {
+            "Name": { "col": 1, "merge": true },
+            "Structure": { "col": 2 },
+            "Reference-ID": { "col": 3 },
+            "Mode": { "col": 4 },
+            "Description": { "col": 5 },
+            "TestResponsible": { "col": 6 },
+            "TestSteps": [
+              {
+                "TestStep": {
+                  "OrderID": { "col": 7 },
+                  "Name": { "col": 8 },
+                  "Description": { "col": 9 },
+                  "ExcpectedResult": { "col": 10 }
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
