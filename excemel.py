@@ -64,18 +64,18 @@ def create_default_config():
     with open(CONFIG_NAME, "w") as file:
         file.write(DEFAULT_CONFIG)
 
-def read_config() -> dict:
+def read_config(config_name: str) -> dict:
     """Reads the config struct JSON and parse it.
 
     Returns:
         dict: config struct as a dictionary
     """
 
-    config_exists = os.path.isfile(CONFIG_NAME)
+    config_exists = os.path.isfile(config_name)
     if not config_exists:
         raise Exception(f"the config file ({CONFIG_NAME}) isn't exists. Please create a new one with the --create-config flag")
 
-    with open(CONFIG_NAME, "r") as file:
+    with open(config_name, "r") as file:
         text = file.read()
 
         # Parse JSON to dict.
@@ -256,7 +256,7 @@ def main():
 
     # Read the config file.
     try:
-        config = read_config()
+        config = read_config(CONFIG_NAME)
         order = config["order"]
         from_value = config["from"]
         struct = config["struct"]
